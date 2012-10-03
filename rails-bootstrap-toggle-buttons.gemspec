@@ -1,11 +1,10 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails-bootstrap-toggle-buttons/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "rails-bootstrap-toggle-buttons"
-  gem.version       = Rails::Bootstrap::Toggle::Buttons::VERSION
+  gem.version       = "0.0.1"
   gem.authors       = ["Carlos Alexandro Becker"]
   gem.email         = ["caarlos0@gmail.com"]
   gem.description   = %q{Just providing the bootstrap-toggle-buttons from https://github.com/nostalgiaz/bootstrap-toggle-buttons into a gem.}
