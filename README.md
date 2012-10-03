@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just add to your `application.css`:
+
+	*= require bootstrap-toggle-buttons
+
+And to your `application.js`:
+	
+	//= require bootstrap-toggle-buttons
+
+Then follow the [official documentation](http://www.larentis.eu/bootstrap_toggle_buttons/).
+
 
 ## Contributing
 
