@@ -12,6 +12,4 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/caarlos0/rails-bootstrap-toggle-buttons.git"
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
-
-  gem.add_dependency "compass-rails", ">=1.0.3"
 end
