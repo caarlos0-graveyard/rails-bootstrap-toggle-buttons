@@ -10,10 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["caarlos0@gmail.com"]
   gem.description   = %q{Just providing the bootstrap-toggle-buttons from https://github.com/nostalgiaz/bootstrap-toggle-buttons into a gem.}
   gem.summary       = %q{A simple gem for https://github.com/nostalgiaz/bootstrap-toggle-buttons }
-  gem.homepage      = "http://caarlos0.github.com"
+  gem.homepage      = "https://github.com/caarlos0/rails-bootstrap-toggle-buttons.git"
 
-  gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
 end
