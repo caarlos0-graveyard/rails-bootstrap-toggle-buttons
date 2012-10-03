@@ -1,6 +1,12 @@
 require "rails-bootstrap-toggle-buttons/version"
 
-module RailsBootstrapToggleButtons
-	class Engine < ::Rails::Engine
-	end
+module Rails
+  module Bootstrap
+    module Toggle
+      module Buttons
+      	 class Engine < ::Rails::Engine
+      	 end
+      end
+    end
+  end
 end
