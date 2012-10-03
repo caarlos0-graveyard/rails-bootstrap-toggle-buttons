@@ -34,7 +34,7 @@ Then follow the [official documentation](http://www.larentis.eu/bootstrap_toggle
 ### Hacking for simple_forms
 
 Simple forms add a `label` around the `input type='checkbox'`, and some custom styles too.
-For first, you will have to add in your `document.ready` event something like the following code:
+At first, you will have to add in your `document.ready` event something like the following code:
 
 	$('.control-label.checkbox').toggleButtons();
 
