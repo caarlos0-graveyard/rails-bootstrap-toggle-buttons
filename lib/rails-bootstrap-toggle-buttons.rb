@@ -1,5 +1,3 @@
-require "rails-bootstrap-toggle-buttons/version"
-
 module Rails
   module Bootstrap
     module Toggle
