@@ -38,7 +38,7 @@ At first, you will have to add in your `document.ready` event something like the
 
 	$('.control-label.checkbox').toggleButtons();
 
-But, you will probably get a strange behavior, like a excessive padding. But that's expected. To fix that, add to your css:
+But, you will probably get a strange behavior, like an excessive padding. But that's expected. To fix that, add to your css:
 
 	label.boolean.control-label.checkbox.toggle-button {
 	  padding-left: 0;
