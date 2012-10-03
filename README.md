@@ -8,8 +8,6 @@ Add this line to your application's Gemfile:
 
     gem 'rails-bootstrap-toggle-buttons'
 
-Maybe, you will also have to add the `gem 'compass-rails'` to your Gemfile.
-
 And then execute:
 
     $ bundle
