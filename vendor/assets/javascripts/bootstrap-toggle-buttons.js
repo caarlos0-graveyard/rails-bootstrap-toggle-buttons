@@ -56,7 +56,7 @@
 
               $div = $cb.wrap($('<div></div>')).parent();
               $div.append($spanLeft);
-              $div.append($('<label></label>').attr('for', $cb.attr('id') || ''));
+              $div.append($('<label></label>').prop('for', $cb.prop('id') || ''));
               $div.append($spanRight);
 
               if ($cb.is(':checked'))
@@ -187,9 +187,9 @@
 
                     if (moving)
                       if (parseInt($(this).parent().css('left')) < -25)
-                        $myCheckBox.attr('checked', false);
-                      else $myCheckBox.attr('checked', true);
-                    else $myCheckBox.attr("checked", !$myCheckBox.is(":checked"));
+                        $myCheckBox.prop('checked', false);
+                      else $myCheckBox.prop('checked', true);
+                    else $myCheckBox.prop("checked", !$myCheckBox.is(":checked"));
 
                     $myCheckBox.trigger('change');
                   });
@@ -204,8 +204,8 @@
                     $(this).trigger('mouseup');
 
                     if (parseInt($(this).parent().css('left')) < -25)
-                      $myCheckBox.attr('checked', false);
-                    else $myCheckBox.attr('checked', true);
+                      $myCheckBox.prop('checked', false);
+                    else $myCheckBox.prop('checked', true);
 
                     $myCheckBox.trigger('change');
                   });
@@ -226,10 +226,10 @@
         },
         toggleState: function (skipOnChange) {
           var $input = $(this).find('input:checkbox');
-          $input.attr('checked', !$input.is(':checked')).trigger('change', skipOnChange);
+          $input.prop('checked', !$input.is(':checked')).trigger('change', skipOnChange);
         },
         setState: function(value, skipOnChange) {
-          $(this).find('input:checkbox').attr('checked', value).trigger('change', skipOnChange);
+          $(this).find('input:checkbox').prop('checked', value).trigger('change', skipOnChange);
         },
         status: function () {
           return $(this).find('input:checkbox').is(':checked');
