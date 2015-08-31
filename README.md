@@ -26,7 +26,7 @@ And to your `application.js`:
 	
 	//= require bootstrap-toggle-buttons
 
-Then follow the [official documentation](http://www.larentis.eu/bootstrap_toggle_buttons/).
+Then follow the [official documentation](https://github.com/nostalgiaz/bootstrap-toggle-buttons).
 
 
 ### Hacking for simple_forms
